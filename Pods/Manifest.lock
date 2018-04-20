@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (4.7.1)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - AWSAuthCore (2.6.14):
+    - AWSCore (= 2.6.14)
+  - AWSAuthUI (2.6.14):
+    - AWSAuthCore (= 2.6.14)
+    - AWSCore (= 2.6.14)
+  - AWSCognitoIdentityProvider (2.6.14):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.6.14)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.6.14)
+  - AWSDynamoDB (2.6.14):
+    - AWSCore (= 2.6.14)
+  - AWSMobileClient (2.6.14):
+    - AWSAuthCore (= 2.6.14)
+  - AWSPinpoint (2.6.14):
+    - AWSCore (= 2.6.14)
+  - AWSUserPoolsSignIn (2.6.14):
+    - AWSAuthCore (= 2.6.14)
+    - AWSCognitoIdentityProvider (= 2.6.14)
+  - Eureka (4.1.1)
+
+DEPENDENCIES:
+  - AlamofireImage (~> 3.3)
+  - AWSAuthUI (~> 2.6.5)
+  - AWSDynamoDB (~> 2.6.5)
+  - AWSMobileClient (~> 2.6.13)
+  - AWSMobileClient (~> 2.6.5)
+  - AWSPinpoint (~> 2.6.5)
+  - AWSUserPoolsSignIn (~> 2.6.5)
+  - Eureka
+
+SPEC CHECKSUMS:
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  AWSAuthCore: b13b0cb87abac6d44c52d8b965bbdb4cd0842017
+  AWSAuthUI: 6c4b7eb77ff6f6f96a2a8661dc57cc840234dfbb
+  AWSCognitoIdentityProvider: 5055dd6a04040582191b0f3a80723e67fc55eaf4
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 8c883c2623d314dd82cca3809527784e1d1a02e5
+  AWSDynamoDB: ecbc36963c5dd62354d8e844312a3a45f59046b9
+  AWSMobileClient: 4467dd19e5e50d9a115b37e7be3ffb689c0b285c
+  AWSPinpoint: d9367a440d40a3a0b3e371fe3c906249a7017a44
+  AWSUserPoolsSignIn: 8c52ad458e6e6fbf385a41a6b5d35a99c707db37
+  Eureka: b88fb930e42c79f8c03c373d0fcdc28c1d6c50ed
+
+PODFILE CHECKSUM: ea227d1d6aed10d8c837f845fe7e2206670b2081
+
+COCOAPODS: 1.3.1

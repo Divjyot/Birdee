@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F45736D68764D744C470528 /* Pods_Birdee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC788D9A9BA22C6804652A3C /* Pods_Birdee.framework */; };
+		299C062B20776C8500BD6D7E /* Eureka.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 299C062920776BFC00BD6D7E /* Eureka.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29A613152077676100D9CAD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A613142077676100D9CAD7 /* AppDelegate.swift */; };
+		29A613172077676100D9CAD7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A613162077676100D9CAD7 /* FirstViewController.swift */; };
+		29A613192077676100D9CAD7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A613182077676100D9CAD7 /* SecondViewController.swift */; };
+		29A6131C2077676100D9CAD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A6131A2077676100D9CAD7 /* Main.storyboard */; };
+		29A6131E2077676100D9CAD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A6131D2077676100D9CAD7 /* Assets.xcassets */; };
+		29A613212077676100D9CAD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A6131F2077676100D9CAD7 /* LaunchScreen.storyboard */; };
+		29BD2A8B20776EB700D85196 /* Eureka.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 299C062D20776DA800BD6D7E /* Eureka.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29BD2A8F2077715400D85196 /* Eureka.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 299C062D20776DA800BD6D7E /* Eureka.bundle */; };
+		29C0B8012080662800DA60FF /* TodayClients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0B8002080662800DA60FF /* TodayClients.swift */; };
+		29E3CF7F207A2A330099A34B /* UserInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E3CF7D207A2A320099A34B /* UserInfoCell.xib */; };
+		29E3CF80207A2A330099A34B /* UserInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E3CF7E207A2A330099A34B /* UserInfoCell.swift */; };
+		29E3CF82207A2DE60099A34B /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 29E3CF81207A2DE60099A34B /* awsconfiguration.json */; };
+		29FF88FB207B78F0007F4820 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF88FA207B78F0007F4820 /* Notes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		299C062C20776C8500BD6D7E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				299C062B20776C8500BD6D7E /* Eureka.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		29BD2A8C20776EB700D85196 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				29BD2A8B20776EB700D85196 /* Eureka.bundle in Embed PlugIns */,
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		299C062920776BFC00BD6D7E /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		299C062D20776DA800BD6D7E /* Eureka.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Eureka.bundle; path = Pods/Eureka/Source/Resources/Eureka.bundle; sourceTree = "<group>"; };
+		29A613112077676100D9CAD7 /* Birdee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birdee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A613142077676100D9CAD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29A613162077676100D9CAD7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		29A613182077676100D9CAD7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		29A6131B2077676100D9CAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29A6131D2077676100D9CAD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29A613202077676100D9CAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29A613222077676100D9CAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BD2A8D2077713900D85196 /* Eureka */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Eureka; path = Pods/Eureka; sourceTree = "<group>"; };
+		29C0B8002080662800DA60FF /* TodayClients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayClients.swift; sourceTree = "<group>"; };
+		29E3CF78207A255C0099A34B /* QuickTableViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QuickTableViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E3CF7D207A2A320099A34B /* UserInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInfoCell.xib; sourceTree = "<group>"; };
+		29E3CF7E207A2A330099A34B /* UserInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoCell.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xcconfig; };
+		29E3CF81207A2DE60099A34B /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		29FF88FA207B78F0007F4820 /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		4B8E8A5411F4FB34F20E3E47 /* Pods-Birdee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birdee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Birdee/Pods-Birdee.release.xcconfig"; sourceTree = "<group>"; };
+		81B35BEBF7D7A6FC317141FC /* Pods-Birdee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birdee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Birdee/Pods-Birdee.debug.xcconfig"; sourceTree = "<group>"; };
+		BC788D9A9BA22C6804652A3C /* Pods_Birdee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Birdee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29A6130E2077676100D9CAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BD2A8F2077715400D85196 /* Eureka.bundle in Frameworks */,
+				0F45736D68764D744C470528 /* Pods_Birdee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0872C21647F0CF218948F494 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81B35BEBF7D7A6FC317141FC /* Pods-Birdee.debug.xcconfig */,
+				4B8E8A5411F4FB34F20E3E47 /* Pods-Birdee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		29A613082077676100D9CAD7 = {
+			isa = PBXGroup;
+			children = (
+				29A613132077676100D9CAD7 /* Birdee */,
+				29A613122077676100D9CAD7 /* Products */,
+				8D256487CBCA0C602B7C505A /* Frameworks */,
+				0872C21647F0CF218948F494 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		29A613122077676100D9CAD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29A613112077676100D9CAD7 /* Birdee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29A613132077676100D9CAD7 /* Birdee */ = {
+			isa = PBXGroup;
+			children = (
+				29C0B7FC20805F9700DA60FF /* AmazonAws */,
+				29E3CF81207A2DE60099A34B /* awsconfiguration.json */,
+				29A613142077676100D9CAD7 /* AppDelegate.swift */,
+				29A613162077676100D9CAD7 /* FirstViewController.swift */,
+				29A613182077676100D9CAD7 /* SecondViewController.swift */,
+				29A6131A2077676100D9CAD7 /* Main.storyboard */,
+				29A6131D2077676100D9CAD7 /* Assets.xcassets */,
+				29A6131F2077676100D9CAD7 /* LaunchScreen.storyboard */,
+				29A613222077676100D9CAD7 /* Info.plist */,
+				29E3CF7E207A2A330099A34B /* UserInfoCell.swift */,
+				29E3CF7D207A2A320099A34B /* UserInfoCell.xib */,
+			);
+			path = Birdee;
+			sourceTree = "<group>";
+		};
+		29C0B7FC20805F9700DA60FF /* AmazonAws */ = {
+			isa = PBXGroup;
+			children = (
+				29C0B7FD20805FBB00DA60FF /* noSQL */,
+			);
+			path = AmazonAws;
+			sourceTree = "<group>";
+		};
+		29C0B7FD20805FBB00DA60FF /* noSQL */ = {
+			isa = PBXGroup;
+			children = (
+				29C0B8002080662800DA60FF /* TodayClients.swift */,
+				29FF88FA207B78F0007F4820 /* Notes.swift */,
+			);
+			path = noSQL;
+			sourceTree = "<group>";
+		};
+		8D256487CBCA0C602B7C505A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29E3CF78207A255C0099A34B /* QuickTableViewController.framework */,
+				29BD2A8D2077713900D85196 /* Eureka */,
+				299C062D20776DA800BD6D7E /* Eureka.bundle */,
+				299C062920776BFC00BD6D7E /* Eureka.framework */,
+				BC788D9A9BA22C6804652A3C /* Pods_Birdee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29A613102077676100D9CAD7 /* Birdee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29A613252077676100D9CAD7 /* Build configuration list for PBXNativeTarget "Birdee" */;
+			buildPhases = (
+				2A417BFD4C3B4F3779185DD3 /* [CP] Check Pods Manifest.lock */,
+				29A6130D2077676100D9CAD7 /* Sources */,
+				29A6130E2077676100D9CAD7 /* Frameworks */,
+				29A6130F2077676100D9CAD7 /* Resources */,
+				299C062C20776C8500BD6D7E /* Embed Frameworks */,
+				29BD2A8C20776EB700D85196 /* Embed PlugIns */,
+				6341E8ECF47AA850200ACAC6 /* [CP] Embed Pods Frameworks */,
+				DAEBA0D0375CC5791EC2DB83 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Birdee;
+			productName = Birdee;
+			productReference = 29A613112077676100D9CAD7 /* Birdee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29A613092077676100D9CAD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Divjyot Singh";
+				TargetAttributes = {
+					29A613102077676100D9CAD7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 29A6130C2077676100D9CAD7 /* Build configuration list for PBXProject "Birdee" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29A613082077676100D9CAD7;
+			productRefGroup = 29A613122077676100D9CAD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29A613102077676100D9CAD7 /* Birdee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29A6130F2077676100D9CAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E3CF82207A2DE60099A34B /* awsconfiguration.json in Resources */,
+				29A613212077676100D9CAD7 /* LaunchScreen.storyboard in Resources */,
+				29A6131E2077676100D9CAD7 /* Assets.xcassets in Resources */,
+				29E3CF7F207A2A330099A34B /* UserInfoCell.xib in Resources */,
+				29A6131C2077676100D9CAD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A417BFD4C3B4F3779185DD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Birdee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6341E8ECF47AA850200ACAC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Birdee/Pods-Birdee-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Birdee/Pods-Birdee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAEBA0D0375CC5791EC2DB83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Birdee/Pods-Birdee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29A6130D2077676100D9CAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A613192077676100D9CAD7 /* SecondViewController.swift in Sources */,
+				29FF88FB207B78F0007F4820 /* Notes.swift in Sources */,
+				29C0B8012080662800DA60FF /* TodayClients.swift in Sources */,
+				29A613152077676100D9CAD7 /* AppDelegate.swift in Sources */,
+				29E3CF80207A2A330099A34B /* UserInfoCell.swift in Sources */,
+				29A613172077676100D9CAD7 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29A6131A2077676100D9CAD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29A6131B2077676100D9CAD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29A6131F2077676100D9CAD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29A613202077676100D9CAD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29A613232077676100D9CAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29A613242077676100D9CAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29A613262077676100D9CAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B35BEBF7D7A6FC317141FC /* Pods-Birdee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F98H3FLC5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AWSAuthCore\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AWSCore\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AWSMobileClient\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Eureka\"",
+					"$(SRCROOT)",
+				);
+				INFOPLIST_FILE = Birdee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.divjyotsingh.Birdee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29A613272077676100D9CAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8E8A5411F4FB34F20E3E47 /* Pods-Birdee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F98H3FLC5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AWSCore\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AWSMobileClient\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Eureka\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AWSAuthCore\"",
+					"$(SRCROOT)",
+				);
+				INFOPLIST_FILE = Birdee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.divjyotsingh.Birdee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29A6130C2077676100D9CAD7 /* Build configuration list for PBXProject "Birdee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A613232077676100D9CAD7 /* Debug */,
+				29A613242077676100D9CAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29A613252077676100D9CAD7 /* Build configuration list for PBXNativeTarget "Birdee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A613262077676100D9CAD7 /* Debug */,
+				29A613272077676100D9CAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29A613092077676100D9CAD7 /* Project object */;
+}
